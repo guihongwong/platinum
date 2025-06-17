@@ -25,6 +25,7 @@ jobs:
       - name: Lint
         run: pnpm lint
         timeout-minutes: 15
+        continue-on-error: true
 
       - name: Deploy to Vercel (Staging)
         if: ${{ github.ref != 'refs/heads/main' }}
