@@ -49,4 +49,3 @@ jobs:
           working-directory: ./
           github-comment: false
         timeout-minutes: 5
-feat: :sparkles: Add login check and preview functionality to comment component · PatchyVideo/platinum@5442a1c
