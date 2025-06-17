@@ -22,12 +22,15 @@ $ cd platinum
 # install dependencies
 $ pnpm i
 
+# generate code schema (required before dev / build)
+$ pnpm codegen
+
 # lint & format
 $ pnpm lint
 
-# launch nuxt dev server
+# launch vite dev server
 $ pnpm dev
 
-# build nuxt server
+# pack the website
 $ pnpm build
 ```
